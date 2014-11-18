@@ -1,6 +1,6 @@
 # Base ubuntu docker image with build tools and a non-root (sudo) user.
 
-FROM       ubuntu:latest
+FROM       ubuntu:14.04
 MAINTAINER Chris Corbyn <chris@w3style.co.uk>
 
 RUN apt-get update -qq -y
